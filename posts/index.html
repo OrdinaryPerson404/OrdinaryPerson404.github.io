@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>文章列表 | wjh22 的博客</title>
+  <meta name="description" content="文章列表">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-12 -12 24 24'%3E%3Cg fill='%234a90c4'%3E%3Cellipse cy='-6' rx='3.1' ry='5.8'/%3E%3Cellipse cy='-6' rx='3.1' ry='5.8' transform='rotate(72)'/%3E%3Cellipse cy='-6' rx='3.1' ry='5.8' transform='rotate(144)'/%3E%3Cellipse cy='-6' rx='3.1' ry='5.8' transform='rotate(216)'/%3E%3Cellipse cy='-6' rx='3.1' ry='5.8' transform='rotate(288)'/%3E%3C/g%3E%3Ccircle r='2.4' fill='%23e8a0a0'/%3E%3C/svg%3E">
+  <script>
+    (function () {
+      try {
+        var m = localStorage.getItem("yuxiang-scheme");
+        var d = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (m === "dark" || (!m && d)) document.documentElement.setAttribute("data-theme", "dark");
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="/" aria-label="带我回家">
+        <svg class="flower" viewBox="-12 -12 24 24" width="22" height="22" aria-hidden="true"><g class="petal"><ellipse cy="-6" rx="3.1" ry="5.8"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(72)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(144)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(216)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(288)"/></g><circle class="heart" r="2.4"/></svg>
+        <span>wjh22 的博客</span>
+      </a>
+      <nav class="nav-links" aria-label="站内导航">
+        <a href="/">首页</a>
+        <a href="/posts/" aria-current="page">文章</a>
+        <a href="/friendlinks.html">友链</a>
+        <a href="/intro.html">关于</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-icon" href="https://github.com/OrdinaryPerson404" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 1024 1024" fill="currentColor" aria-hidden="true"><path d="M511.957 21.333C241.024 21.333 21.333 240.981 21.333 512c0 216.832 140.544 400.725 335.574 465.664 24.49 4.395 32.256-10.07 32.256-23.083 0-11.69.256-44.245 0-85.205-136.448 29.61-164.736-64.64-164.736-64.64-22.315-56.704-54.4-71.765-54.4-71.765-44.587-30.464 3.285-29.824 3.285-29.824 49.195 3.413 75.179 50.517 75.179 50.517 43.776 75.008 114.816 53.333 142.762 40.79 4.523-31.66 17.152-53.377 31.19-65.537-108.971-12.458-223.488-54.485-223.488-242.602 0-53.547 19.114-97.323 50.517-131.67-5.035-12.33-21.93-62.293 4.779-129.834 0 0 41.258-13.184 134.912 50.346a469.803 469.803 0 0 1 122.88-16.554c41.642.213 83.626 5.632 122.88 16.554 93.653-63.488 134.784-50.346 134.784-50.346 26.752 67.541 9.898 117.504 4.864 129.834 31.402 34.347 50.474 78.123 50.474 131.67 0 188.586-114.73 230.016-224.042 242.09 17.578 15.232 33.578 44.672 33.578 90.454v135.85c0 13.142 7.936 27.606 32.854 22.87C862.25 912.597 1002.667 728.747 1002.667 512c0-271.019-219.648-490.667-490.71-490.667z"/></svg>
+        </a>
+        <a class="nav-icon" href="https://space.bilibili.com/2122601071" target="_blank" rel="noopener noreferrer" aria-label="哔哩哔哩">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373Z"/></svg>
+        </a>
+        <button class="nav-icon" id="theme-toggle" aria-label="切换亮暗主题">
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5 5l1.6 1.6M17.4 17.4 19 19M19 5l-1.6 1.6M6.6 17.4 5 19"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.2A8.4 8.4 0 1 1 10.8 3.4a6.8 6.8 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="col">
+
+    <div class="page-head rise">
+      <p class="page-kicker">
+        <svg class="flower" viewBox="-12 -12 24 24" width="14" height="14" aria-hidden="true"><g class="petal"><ellipse cy="-6" rx="3.1" ry="5.8"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(72)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(144)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(216)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(288)"/></g><circle class="heart" r="2.4"/></svg>
+        POSTS · 手帐目录
+      </p>
+      <h1 class="page-title">文章列表</h1>
+      <p class="page-desc">共 1 篇 · 慢慢写，不着急。</p>
+    </div>
+
+    <section class="section rise d2">
+      <div class="post-list">
+        <a class="card post-card" href="/posts/hello-world/">
+          <div class="post-card-top">
+            <h2 class="post-card-title">Hello World</h2>
+            <span class="post-card-arrow">→</span>
+          </div>
+          <div class="post-card-meta">
+            <span>2026-06-22</span>
+            <span class="chip">随笔</span>
+            <span class="chip warm"># 博客</span>
+            <span>小于 1 分钟</span>
+          </div>
+          <p class="post-card-excerpt">这是我的第一篇博客文章——为什么写、写什么，以及一个小小的坚持。</p>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="col">
+      <svg class="flower" viewBox="-12 -12 24 24" width="22" height="22" aria-hidden="true"><g class="petal"><ellipse cy="-6" rx="3.1" ry="5.8"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(72)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(144)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(216)"/><ellipse cy="-6" rx="3.1" ry="5.8" transform="rotate(288)"/></g><circle class="heart" r="2.4"/></svg>
+      <p class="footer-quote">“我替世界，收着那些没被听见的声音。” —— 余响</p>
+      <p class="footer-meta">❤️ 网工手帐<span class="sep">·</span>Copyright © 2026 wjh22<span class="sep">·</span><a href="https://github.com/OrdinaryPerson404" target="_blank" rel="noopener noreferrer">GitHub</a><span class="sep">·</span><a href="https://space.bilibili.com/2122601071" target="_blank" rel="noopener noreferrer">哔哩哔哩</a></p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/site.js"></script>
+</body>
+</html>
